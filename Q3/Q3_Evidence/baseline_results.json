@@ -1,0 +1,17 @@
+{
+  "M1": {
+    "issue_category": "ENERGY_EFFICIENCY",
+    "urgency": "LOW",
+    "recommended_team": "Facilities"
+  },
+  "M2": {
+    "issue_category": "ACCESSIBILITY",
+    "urgency": "HIGH",
+    "recommended_team": "Facilities"
+  },
+  "M3": {
+    "issue_category": "GOVERNANCE",
+    "urgency": "MEDIUM",
+    "recommended_team": "Governance/Compliance"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "compared_fields": [
+    "issue_category",
+    "urgency",
+    "recommended_team"
+  ],
+  "llm_results": {
+    "M1": {
+      "issue_category": "ENERGY_EFFICIENCY",
+      "urgency": "LOW",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities",
+      "escalation_reason": "Unnecessary electricity consumption requires routine review of timer settings by Facilities.",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Air conditioning runs overnight in an empty office; timer settings need checking."
+    },
+    "M2": {
+      "issue_category": "ACCESSIBILITY",
+      "urgency": "HIGH",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Facilities",
+      "escalation_reason": "High urgency access barrier with no alternative route requires immediate Facilities review.",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Delivery pallets are blocking the only accessible entrance to Building C, preventing wheelchair entry today."
+    },
+    "M3": {
+      "issue_category": "GOVERNANCE",
+      "urgency": "MEDIUM",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Governance/Compliance",
+      "escalation_reason": "Human review is required for governance and conflict of interest issues before a future decision.",
+      "data_sensitivity_risk": "MEDIUM",
+      "brief_summary": "A purchasing officer's relative owns a shortlisted supplier, requiring a conflict of interest review before selection."
+    }
+  },
+  "baseline_results": {
+    "M1": {
+      "issue_category": "ENERGY_EFFICIENCY",
+      "urgency": "LOW",
+      "recommended_team": "Facilities"
+    },
+    "M2": {
+      "issue_category": "ACCESSIBILITY",
+      "urgency": "HIGH",
+      "recommended_team": "Facilities"
+    },
+    "M3": {
+      "issue_category": "GOVERNANCE",
+      "urgency": "MEDIUM",
+      "recommended_team": "Governance/Compliance"
+    }
+  }
+}
